@@ -207,6 +207,7 @@ a:hover, a:active, a:focus {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
+  padding-right: 22px;
   margin: 0;
 }
 
@@ -488,7 +489,7 @@ a:hover, a:active, a:focus {
 
 .blog-post-format span {
   letter-spacing: 0.5px;
-  padding-right: 12px;
+  padding-left: 12px;
 }
 
 .blog-post-format span a {
@@ -498,7 +499,7 @@ a:hover, a:active, a:focus {
 .blog-post-format span img {
   display: inline-block;
   width: 42px;
-  margin-right: 4px;
+  margin-left: 4px;
 }
 
 .blog-post-des blockquote {

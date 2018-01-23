@@ -285,11 +285,6 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
-.main-anypage {
-  background: url('../images/home-bg.jpg') no-repeat;
-  height: 10vh;
-}
-
 .main-about {
   background: url('../images/about-bg.jpg') no-repeat;
 }

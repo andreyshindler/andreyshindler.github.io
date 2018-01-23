@@ -286,8 +286,8 @@ a:hover, a:active, a:focus {
 }
 
 .main-anypage {
-  background: url('../images/home-bg.jpg') no-repeat;
-  height: 10vh;
+  background: url('../images/gallery-image1.jpg') no-repeat;
+  height: 20vh;
 }
 
 .main-about {

@@ -42,35 +42,19 @@ http://www.tooplate.com/view/2085-neuron
 	 
 	 
 	 
-	 
-	 <script type="text/javascript">
-
-// Google Internal Site Search script II- By JavaScriptKit.com (http://www.javascriptkit.com)
-// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
-// This notice must stay intact for use
-
-function Gsitesearch(curobj){
-var domainroot=curobj.domainroot[curobj.domainroot.selectedIndex].value
-curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
-}
-
+<script>
+  (function() {
+    var cx = '003105097969847170916:p_xe-qtxomi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
 </script>
+<gcse:search></gcse:search>	 
 
-
-<form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
-
-<p>
-<input name="q" type="hidden" />
-<input name="qfront" type="text" style="width: 180px" /> <input type="submit" value="חפש" /><br />
-Search: 
-<select name="domainroot">
-<option value="https://andreyshindler.github.io/" selected="1">JavaScript Kit</option>
-<option value="www.dynamicdrive.com">Dynamic Drive</option>
-<option value="www.freewarejava.com">FreewareJava.com</option>
-</select>
-</p>
-
-</form>
 
 
 

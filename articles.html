@@ -39,6 +39,40 @@ http://www.tooplate.com/view/2085-neuron
 
 <div class="navbar navbar-default navbar-static-top" role="navigation">
      <div class="container">
+	 
+	 
+	 
+	 
+	 <script type="text/javascript">
+
+// Google Internal Site Search script II- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+function Gsitesearch(curobj){
+var domainroot=curobj.domainroot[curobj.domainroot.selectedIndex].value
+curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+}
+
+</script>
+
+
+<form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+
+<p>
+<input name="q" type="hidden" />
+<input name="qfront" type="text" style="width: 180px" /> <input type="submit" value="Search" /><br />
+Search: 
+<select name="domainroot">
+<option value="www.javascriptkit.com" selected="1">JavaScript Kit</option>
+<option value="www.dynamicdrive.com">Dynamic Drive</option>
+<option value="www.freewarejava.com">FreewareJava.com</option>
+</select>
+</p>
+
+</form>
+
+
 
           <div class="navbar-header">
                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
